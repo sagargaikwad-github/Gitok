@@ -3,6 +3,7 @@ package com.example.github2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String a="First" ;
+        String a="Second";
+        Toast.makeText(this, "okk", Toast.LENGTH_SHORT).show();
     }
 }
